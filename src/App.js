@@ -211,7 +211,7 @@ export default class App extends Component {
                     />
                     <Row gutter={16} style={{marginTop: '16px'}}>
                       <Col span={12}>
-                        <Card type="inner" bordered={false} style={{ cursor: 'pointer' }}>
+                        <Card type="inner" bordered={false} style={{ cursor: 'pointer'}}>
                           <Meta
                             avatar={<Avatar size="large" icon={<UserOutlined />} />}
                             title={<><h4 style={{ paddingTop: '3px', textOverflow: 'ellipsis'}}>Project Name Larage dfdfs dfsdfs fsdfsdf sdfsdfs dfsdfs</h4></>}
