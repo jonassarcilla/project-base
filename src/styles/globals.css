@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  min-width: 375px;
+  width: auto !important;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+@layer base {
+  h1 {
+    @apply text-[40px] font-[700] not-italic leading-[60px] -tracking-[0.4px];
+  }
+
+  h2 {
+    @apply text-[30px] font-[600] not-italic leading-[45px];
+  }
+
+  h3 {
+    @apply text-[24px] font-[400] not-italic leading-[36px];
+  }
+
+  h4 {
+    @apply text-[20px] font-[500] not-italic leading-[28px];
+  }
+}
+
+@layer components {
+  /* Hero */
+  .heading-hero {
+    @apply text-[64px] font-[800] not-italic leading-[1.5];
+  }
+
+  /* Body text large for big paragraph */
+  .body-18-regular {
+    @apply text-[18px] font-[400] not-italic leading-[32px];
+  }
+
+  /* Body text large for big paragraphs. */
+  .body-18-medium {
+    @apply text-[18px] font-[500] not-italic leading-[28px];
+  }
+
+  /* Body text normal, used for most readable content. */
+  .body-18-bold {
+    @apply text-[18px] font-[700] not-italic leading-[27px];
+  }
+
+  /* Body text bold, could be used for links and navigation elements. */
+  .body-16-regular {
+    @apply text-[16px] font-[400] not-italic leading-[24px];
+  }
+
+  /* Caption text, used for very small paragraphs. */
+  .body-14-regular {
+    @apply text-[14px] font-[400] not-italic leading-[20px];
+  }
+
+  /* Caption text bold, could be used for secondary links or navigation elements. */
+  .body-14-medium {
+    @apply text-[14px] font-[500] not-italic leading-[20px];
+  }
+
+  /* Caption text bold, could be used for secondary links or navigation elements. */
+  .body-12-regular {
+    @apply text-[12px] font-[400] not-italic leading-[18px];
+  }
+
+  /* Caption text bold, could be used for secondary links or navigation elements. */
+  .body-12-medium {
+    @apply text-[12px] font-[500] not-italic leading-normal;
+  }
+
+  /* HAIRLINE LARGE */
+  .body-16-bold {
+    @apply text-[16px] font-[700] not-italic leading-[24px];
+  }
+
+  /* HAIRLINE SMALL */
+  .body-12-bold {
+    @apply text-[12px] font-[700] not-italic leading-normal;
+  }
+
+  /* Button Small */
+  .body-14-bold {
+    @apply text-[14px] font-[700] not-italic leading-[21px];
+  }
+}
